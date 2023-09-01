@@ -10,3 +10,8 @@ else:
     print("This is not part of If statements")
 
 print("Even Number") if int(a) % 2 == 0 else print("Odd Number")
+<<<<<<< HEAD
+
+{print("Even"), print(" Number")} if int(a) % 2 == 0 else {print("Odd"), print(" Number")}
+=======
+>>>>>>> origin/dev1
