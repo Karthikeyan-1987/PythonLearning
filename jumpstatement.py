@@ -2,7 +2,7 @@ a = 10
 
 for i in range(20):
     if i == 3:
-        print("Number %d" % i, " is NOT Printed")
+        print("Number %d is NOT Printed" %i)
         continue
     if i == 13:
         print("Loop is broken")
