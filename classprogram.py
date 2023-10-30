@@ -1,8 +1,11 @@
+#import pandas as pd
 x = 1000  # Bydefault, variable outside the class is a global variable
 
 # Creating Class
 class FirstClass:
     b = 30  # Class Variable
+    def __init__(self): #Constructor
+        print("Constructor Called")
 
     def assign(self):  # By default, all are Instance Method
         global a  # Global Variable

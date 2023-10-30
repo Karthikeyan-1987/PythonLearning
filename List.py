@@ -6,7 +6,7 @@ List2= list([1,2,3,4,5])
 print(List2)
 print(List2.reverse())
 
-List3=list(["Karthi","Karthi","Ilakkiya","Dhiya","Shri"])
+List3=["Karthi","Karthi","Ilakkiya","Dhiya","Shri"]
 print(List3)
 
 List4=list("Karthikeyan")
